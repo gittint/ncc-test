@@ -1,0 +1,60 @@
+@media (max-width:739px){
+    .body,.footer{
+        padding-left: 0px;
+    }
+
+    .app{
+        padding: 0px 20px;
+    }
+
+    .nav{
+        overflow: hidden;
+        min-width: 0px;
+        width: 0px;
+    }
+
+    .nav.active{
+        width: 150px;
+        min-width: 150px;
+    }
+
+    .nav__icon.active{
+        display: block;
+    }
+
+    .nav__icon{
+        display: none;
+        cursor: pointer;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .open{
+        color: black;
+        position: fixed;
+        left: 20px;
+        top: 15px;
+    }
+
+    .close{
+        color: white;
+        float: right;
+        margin: 10px 10px 0px 0px;
+    }
+
+    .logo{
+        max-width: 100px;
+    }
+
+    .body-textbox__heading,
+    .body-textbox__desc{
+        max-width: 300px;
+    }
+
+    .body__item{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+}
